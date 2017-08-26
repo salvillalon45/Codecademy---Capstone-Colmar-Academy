@@ -1,0 +1,81 @@
+/* Universal Style */
+html {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0px;
+}
+/* *********************************************** */
+/* Main Header */
+header .mobile {
+  display: none;
+}
+
+header {
+  height: 64px;
+}
+
+header .content {
+  color: grey;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* *********************************************** */
+/* Navigation in Header */
+header ul{
+  list-style-type: none;
+  padding-left: 24px;
+}
+
+header ul li{
+  display: inline;
+}
+
+header ul li{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* *********************************************** */
+/* Logo and ColmarAcademy in Header */
+/*header .content nav .desktop {
+  display: inline-flex;
+  align-items: center;
+}*/
+header .content div {
+  height: 32px;
+  /*padding-right: 20px;*/
+}
+header .content div img {
+  padding-left: 2rem;
+  padding-right:1rem;
+}
+header .content div span {
+  font-size: 1rem;
+  position: relative;
+  bottom: 10px;
+  right: 20px;
+}
+
+/* *********************************************** */
+/* Banner */
+.banner {
+  background-color: lightgrey;
+}
+
+/* *********************************************** */
+/* Banner Picture */
+.banner .banner-pic img {
+  width: 60%;
+}
+
+.banner .banner-pic {
+  padding: 32px 24px 32px 24px;
+}
+
+/* *********************************************** */
+/* Text Next to Banner */
