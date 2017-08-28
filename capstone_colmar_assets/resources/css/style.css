@@ -65,6 +65,8 @@ header .content div span {
 /* Banner */
 .banner {
   background-color: lightgrey;
+  display: flex;
+  align-items: center;
 }
 
 /* *********************************************** */
@@ -79,3 +81,16 @@ header .content div span {
 
 /* *********************************************** */
 /* Text Next to Banner */
+.banner .banner-text {
+  position: relative;
+  right: 200px;  
+  padding-right: 100px;
+  /*width: 30%;*/
+}
+.banner .banner-text .banner-btn {
+  background-color: black;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /*width: 1000px;*/
+}
