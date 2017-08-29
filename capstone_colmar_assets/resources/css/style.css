@@ -67,24 +67,31 @@ header .content div span {
   background-color: lightgrey;
   display: flex;
   align-items: center;
+  padding: 0 1.5rem;
+  /*width: 60%;*/
 }
 
 /* *********************************************** */
 /* Banner Picture */
-.banner .banner-pic img {
+.banner .banner-pic {
   width: 60%;
 }
-
+.banner .banner-pic img {
+  width: 65%;
+}
 .banner .banner-pic {
-  padding: 32px 24px 32px 24px;
+  padding: 32px 0px 32px 24px;
 }
 
 /* *********************************************** */
 /* Text Next to Banner */
 .banner .banner-text {
-  position: relative;
-  right: 200px;  
+  display: inline-block;
+  justify-content: center;
   padding-right: 100px;
+}
+.banner .banner-text h3 {
+  padding-bottom: 20px;
   /*width: 30%;*/
 }
 .banner .banner-text .banner-btn {
@@ -92,5 +99,36 @@ header .content div span {
   color: white;
   padding-top: 8px;
   padding-bottom: 8px;
-  /*width: 1000px;*/
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* *********************************************** */
+/* Information */
+.info {
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+/* *********************************************** */
+/* Main Info */
+.info .main-info {
+  width: 60%;
+  padding: 0px 24px 0px 24px;
+}
+
+.info .main-info .main-info-text {
+  padding: 0px 24px 32px 24px;
+  width: 60%;
+}
+
+.info .main-info img {
+  width: 60%;
+  padding: 32px 24px 0px 24px;
+}
+
+/* *********************************************** */
+/* Column Info */
+.info .main-column {
+  columns: 100px 3;
 }
