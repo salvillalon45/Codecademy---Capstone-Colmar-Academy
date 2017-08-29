@@ -130,5 +130,25 @@ header .content div span {
 /* *********************************************** */
 /* Column Info */
 .info .main-column {
-  columns: 100px 3;
+  width: 40%;
+  position: absolute;
+  left: 50em;
+  top: 35.5rem;
+}
+
+.info .main-column img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px 16px 16px;
+}
+
+.info .main-column-text {
+  width: 65%;
+  position: absolute;
+  /*bottom: 1em;*/
+  left: 15em;
+}
+
+.main-column-text h4 , p {
+  /*padding-top: 100px;*/
 }
